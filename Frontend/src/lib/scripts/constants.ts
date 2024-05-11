@@ -1,5 +1,5 @@
 export const BASE_PATH = import.meta.env.VITE_API_URL || "https://bot.projectbw.ru"
-export const INVITE_URL = import.meta.env.VITE_INVITE_URL || "https://invite.ree6.de"
+export const INVITE_URL = import.meta.env.VITE_INVITE_URL || "https://webbot.projectbw.ru/invite"
 
 export function get(path: string) {
 
